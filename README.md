@@ -1,5 +1,5 @@
 <!-- Title -->
-# Calculator.com-Test
+# CurrencyCalculator-Test
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -39,7 +39,7 @@ Zacharia Gilbert
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Project Link: [https://github.com/zach-gilbert/Calculator.com-Test](https://github.com/zach-gilbert/Calculator.com-Test)
+Project Link: [https://github.com/zach-gilbert/CurrencyCalculator-Test](https://github.com/zach-gilbert/CurrencyCalculator-Test)
 
 
 
