@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
 public class CurrencyCalculatorTest {
 
 	public static void main(String[] args) {
@@ -61,12 +62,10 @@ public class CurrencyCalculatorTest {
 
 		/* Selects a random currency from the drop down list */
 		Select select = new Select(driver.findElement(By.name("to")));
-
 		randomNum = ThreadLocalRandom.current().nextInt(5, 38 + 1); // Randomly chooses an index from 5 to 38, inclusively
 		select.selectByIndex(randomNum); // selects a random index
 		WebElement element = select.getFirstSelectedOption(); // Stores index choice in web element
 		String randCurrencyName = element.getText(); // Retrieves data from the web element
-
 		driver.findElement(By.className("text-center")).click(); // Clicks the calculate button
 
 		/* Retrieve and store data from textboxes */
