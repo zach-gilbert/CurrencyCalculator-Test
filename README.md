@@ -10,6 +10,7 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#purpose">Purpose</a></li>
+        <li><a href="#setup-and-execute">Setup and Execute</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -32,6 +33,15 @@ This mini-project was designed with the sole intent of practicing Selenium by ac
 ### Purpose
 
 This project intializes Chrome WebDriver with Ublock Origin and attempts to access [Calculator.com](https://calculator.com). From there, it begins by navigating to the currency conversion calculator webpage and identifying the currency USD textbox element. Afterwards, it provides a random value which in turn is converted to various currencies. The data is then retrieved from the page and printed to console.
+
+### Setup and Execute
+
+- Install and setup [JDK](https://www.ibm.com/docs/en/b2b-integrator/5.2?topic=installation-setting-java-variables-in-windows).
+- Install and setup [Maven](https://www.baeldung.com/install-maven-on-windows-linux-mac#installing-maven-on-windows).
+- Download the repository to your computer and store it in a folder.
+- Navigate to the folder via the command prompt.
+- Enter: `mvn package` (The project should successfully build).
+- To execute: `java -jar target\SeleniumCurrencyCalculator-execute.jar`
 
 ## Contact
 
