@@ -39,9 +39,10 @@ This project intializes Chrome WebDriver with Ublock Origin and attempts to acce
 - Install and setup [JDK](https://www.ibm.com/docs/en/b2b-integrator/5.2?topic=installation-setting-java-variables-in-windows).
 - Install and setup [Maven](https://www.baeldung.com/install-maven-on-windows-linux-mac#installing-maven-on-windows).
 - Download the repository to your computer and store it in a folder.
-- Navigate to the folder via the command prompt.
-- Enter: `mvn package` (The project should successfully build).
-- To execute: `java -jar target\SeleniumCurrencyCalculator-execute.jar`
+- Unzip the file.
+- Navigate to the `CurrencyCalculator-Test-main` folder via the command prompt.
+- Enter: `mvn package` into the command prompt (The project should successfully build).
+- To execute the program enter: `java -jar target\SeleniumCurrencyCalculator-execute.jar`
 
 ## Contact
 
